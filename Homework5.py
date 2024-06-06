@@ -1,4 +1,4 @@
-immutable_var = (0, "string", True, 0.1)    # Создаем кортедж с разными типами данных
+immutable_var = (0, "string", True, 0.1)    # Создаем кортеж с разными типами данных
 print (immutable_var)                       # Выводим объекты кортеджа
 mutable_list = [22, 'strik', False]         # Создаем строку с разными типами данных
 mutable_list [0] = 21                       # Заменяем 1 элемент строки
