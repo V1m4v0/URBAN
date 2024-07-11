@@ -20,11 +20,9 @@ class House:
 
 h1 = House('ЖК Эльбрус', 18)
 h2 = House('ЖК Акация', 2)
-h1.go_to(-1)
-h2.go_to(10)
 
-str(h1)
-str(h2)
+print(h1)
+print(h2)
 
 print(len(h1))
 print(len(h2))
