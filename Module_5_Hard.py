@@ -46,9 +46,9 @@ class UrTube:
                 while video.time_now < video.duration:
                     print(f' {video.time_now + 1}')
                     video.time_now += 1
-                    time.sleep(0.5)  # пауза 0,5 сек между выводами
+                    time.sleep(0.5) 
 
-                print('Конец видео')  # вот это в выводе на консоль тоже появится
+                print('Конец видео')  
                 video.time_now = 0
                 return
 
